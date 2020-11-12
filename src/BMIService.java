@@ -4,7 +4,7 @@ public class BMIService {
         growth = (float) 1.75;
         double cube = growth * growth;
         int index = (int) (weight / cube);
-     return index;
+        return index;
     }
 
 }
